@@ -57,6 +57,13 @@ void main()
     // AC uzunluğunun hesabı AC = sqrt((yc - ya)^2 + (xc - xa)^2)
     double ac = Math.sqrt((yc - ya) * (yc - ya) + (xc - xa) * (xc - xa));
     print("AC: $ac");
-    
+
+    // p = AC * cos(φ) && h = AC * sin(φ) hesaplanması
+    double p = ac * Math.cos(fi);
+    print("p: $p");
+    double h = ac * Math.sin(fi);
+    print("h: $h");
+
 }
+
 
