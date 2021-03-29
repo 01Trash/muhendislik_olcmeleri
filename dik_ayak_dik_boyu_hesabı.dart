@@ -43,5 +43,20 @@ void main()
     //print(beta_radyan);
     var beta = Math.atan(beta_radyan);
     print("beta: $beta");
+
+    // φ(fi) açısının hesabı 
+    double fi;
+    if (alfa >= beta) {
+        fi = alfa - beta;
+    } 
+    else {
+        fi = beta - alfa;
+    }
+    print("fi: $fi");
+
+    // AC uzunluğunun hesabı AC = sqrt((yc - ya)^2 + (xc - xa)^2)
+    double ac = Math.sqrt((yc - ya) * (yc - ya) + (xc - xa) * (xc - xa));
+    print("AC: $ac");
+    
 }
 
