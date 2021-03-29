@@ -34,14 +34,14 @@ void main()
 
     // alfa semt açısının hesabı
     double alfa_radyan = (yb - ya) / (xb - xa);
-    double atan(num alfa_radyan);
-    //double alfa = Math.atan(Math.alfa_radyan);
-    //print(alfa);
-
+    //print(alfa_radyan);
+    var alfa = Math.atan(alfa_radyan);
+    print("alfa: $alfa");
 
     // beta semt açısının hesabı
-    /*double beta_radyan = (yc - ya) / (xc - xa);
-    double beta = Math.atan(Math.beta_radyan);
-    print(beta);*/
+    double beta_radyan = (yc - ya) / (xc - xa);
+    //print(beta_radyan);
+    var beta = Math. atan(beta_radyan);
+    print("beta: $beta");
 }
 
