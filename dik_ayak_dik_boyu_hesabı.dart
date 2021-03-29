@@ -63,7 +63,4 @@ void main()
     print("p: $p");
     double h = ac * Math.sin(fi);
     print("h: $h");
-
 }
-
-
