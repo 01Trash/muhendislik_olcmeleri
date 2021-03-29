@@ -1,5 +1,7 @@
 /* DİK AYAK VE DİK BOYU HESABI */
 
+import 'dart:io';
+
 // Verilenler: xa, xb,xc, ya, yb, yc; İstenenler: p ve h
 /* Çözüm: 
  * 1. Koordinatlardan (AB) ve (AC) semt açıları hesaplanır.
@@ -11,4 +13,14 @@
  * p = AC * cos(φ)
  * h = AC * sin(φ)
  */
+
+  
+void main()
+{
+    print("Enter your favourite number:");
+  
+    int n = int.parse(stdin.readLineSync());
+  
+    print("Your favourite number is $n");
+}
 
